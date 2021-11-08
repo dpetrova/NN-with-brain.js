@@ -1,0 +1,14 @@
+{
+  "name": "neural-networks-in-js",
+  "version": "1.0.0",
+  "description": "Examples of using Neural networks in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dpetrova",
+  "license": "ISC",
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.4"
+  }
+}
