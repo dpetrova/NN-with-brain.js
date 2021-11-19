@@ -90,19 +90,22 @@ And now the network has done its level best to train itself under your chosen se
 You can now use the .run() command to examine the output for a given sample.
 And voila, your network will be able to make approximations based off of any given input.
 
-# Recurrent Neural Networks
+# Recurrent Neural Networks (RNN)
 
 Humans don’t start their thinking from scratch every second.
 As you read this essay, you understand each word based on your understanding of previous words.
 You don’t throw everything away and start thinking from scratch again. Your thoughts have persistence.
 Traditional neural networks can’t do this.
-Recurrent neural networks address this issue, as are capable of learning order dependence in sequence prediction problems.
-Recurrent neural networks are networks with loops in them, allowing information to persist.
-LSTM networks are well-suited to classifying, processing and making predictions based on time series data.
+RNN is a type of neural network that is used for persistent memory.
+RNN are networks with loops in them, allowing information to persist.
+The RNN remembers the previous information and uses that information to process the current given input.
+The problem with RNN is that they cannot remember long-term information due to vanishing gradient and for this reason, LSTM is designed to avoid long-term dependency problems.
 
 # Long short-term memory (LSTM)
 
-Long short-term memory (LSTM) are special kind of recurrent neural networks (RNN), capable of learning long-term dependencies.
+LSTM is an advanced Recurrent Neural Network (RNN) that allows information to stay long before getting lost.
+LSTM are special kind of recurrent neural networks (RNN), capable of learning long-term dependencies.
+LSTM networks are well-suited to classifying, processing and making predictions based on time series data.
 Unlike standard feedforward neural networks, LSTM has feedback connections.
 It can process not only single data points (such as images), but also entire sequences of data (such as speech or video).
 For example, LSTM is applicable to tasks such as unsegmented, connected handwriting recognition, speech recognition and anomaly detection in network traffic or IDSs (intrusion detection systems).
